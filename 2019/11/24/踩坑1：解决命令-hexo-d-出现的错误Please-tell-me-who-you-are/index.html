@@ -8,16 +8,16 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>踩坑1：解决命令 hexo d 出现的错误Please tell me who you are | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="解决 hexo d 出现的错误Please tell me who you are这是自己如何解决hexo d 出现的错误Please tell me who you are的过程在搭建Hexo基础框架最后一步，用 Git Bash 执行   hexo d  命令时，出现了以下问题：下面可能还会有一大堆错误提示，但这都是因为系统不明确你的身份而导致的。解决的方法也很简单，不要关闭Git Bas">
+  <meta name="description" content="解决 hexo d 出现的错误Please tell me who you are">
 <meta name="keywords" content="博客搭建踩坑点">
 <meta property="og:type" content="article">
 <meta property="og:title" content="踩坑1：解决命令 hexo d 出现的错误Please tell me who you are">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;24&#x2F;%E8%B8%A9%E5%9D%911%EF%BC%9A%E8%A7%A3%E5%86%B3%E5%91%BD%E4%BB%A4-hexo-d-%E5%87%BA%E7%8E%B0%E7%9A%84%E9%94%99%E8%AF%AFPlease-tell-me-who-you-are&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="解决 hexo d 出现的错误Please tell me who you are这是自己如何解决hexo d 出现的错误Please tell me who you are的过程在搭建Hexo基础框架最后一步，用 Git Bash 执行   hexo d  命令时，出现了以下问题：下面可能还会有一大堆错误提示，但这都是因为系统不明确你的身份而导致的。解决的方法也很简单，不要关闭Git Bas">
+<meta property="og:description" content="解决 hexo d 出现的错误Please tell me who you are">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191124201657221.png">
-<meta property="og:updated_time" content="2019-11-25T14:38:10.275Z">
+<meta property="og:updated_time" content="2019-11-25T14:51:50.525Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191124201657221.png">
   
@@ -192,8 +192,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-         <a id="more"></a>
-<h1 id="解决-hexo-d-出现的错误Please-tell-me-who-you-are"><a href="#解决-hexo-d-出现的错误Please-tell-me-who-you-are" class="headerlink" title="解决 hexo d 出现的错误Please tell me who you are"></a>解决 hexo d 出现的错误Please tell me who you are</h1><h2 id="这是自己如何解决hexo-d-出现的错误Please-tell-me-who-you-are的过程"><a href="#这是自己如何解决hexo-d-出现的错误Please-tell-me-who-you-are的过程" class="headerlink" title="这是自己如何解决hexo d 出现的错误Please tell me who you are的过程"></a>这是自己如何解决hexo d 出现的错误Please tell me who you are的过程</h2><p>在搭建Hexo基础框架最后一步，用 <strong>Git Bash</strong> 执行   <strong>hexo d</strong>  命令时，出现了以下问题：<br><img src="https://img-blog.csdnimg.cn/20191124201657221.png" alt="在这里插入图片描述"><br>下面可能还会有一大堆错误提示，但这都是因为系统不明确你的身份而导致的。解决的方法也很简单，不要关闭<strong>Git Bash</strong>（如果关闭了就重新在你建的博客文件夹下打开），在<strong>Git Bash</strong>中先输入命令：</p>
+        <h1 id="解决-hexo-d-出现的错误Please-tell-me-who-you-are"><a href="#解决-hexo-d-出现的错误Please-tell-me-who-you-are" class="headerlink" title="解决 hexo d 出现的错误Please tell me who you are"></a>解决 hexo d 出现的错误Please tell me who you are</h1><a id="more"></a>
+<h2 id="这是自己如何解决hexo-d-出现的错误Please-tell-me-who-you-are的过程"><a href="#这是自己如何解决hexo-d-出现的错误Please-tell-me-who-you-are的过程" class="headerlink" title="这是自己如何解决hexo d 出现的错误Please tell me who you are的过程"></a>这是自己如何解决hexo d 出现的错误Please tell me who you are的过程</h2><p>在搭建Hexo基础框架最后一步，用 <strong>Git Bash</strong> 执行   <strong>hexo d</strong>  命令时，出现了以下问题：<br><img src="https://img-blog.csdnimg.cn/20191124201657221.png" alt="在这里插入图片描述"><br>下面可能还会有一大堆错误提示，但这都是因为系统不明确你的身份而导致的。解决的方法也很简单，不要关闭<strong>Git Bash</strong>（如果关闭了就重新在你建的博客文件夹下打开），在<strong>Git Bash</strong>中先输入命令：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config user.name<span class="string">"username"</span></span><br></pre></td></tr></table></figure>
 <p>名字自己随便起（自己名字的缩写、Github的名字等等），<strong>引号</strong>要是英文状态下的，回车后然后继续输入  </p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config user.email <span class="string">"email"</span></span><br></pre></td></tr></table></figure>
